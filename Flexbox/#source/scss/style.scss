@@ -420,6 +420,9 @@ $nav_hover_color: rgba(255, 82, 82, .8);
                   display: flex;
                   flex-wrap: wrap;
                   justify-content: space-between;
+			@media (max-width:573px){
+                      justify-content: center;
+                  }
 		}
 
 		&__information {
